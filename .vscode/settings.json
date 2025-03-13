@@ -1,0 +1,15 @@
+{
+  "files.exclude": {
+    "node_modules": true,
+    ".gitignore": true,
+    "angular.json": true,
+    ".editorconfig": true,
+    "package-lock.json": true,
+    "package.json": true,
+    "tsconfig.app.json": true,
+    "tsconfig.json": true
+  },
+  "files.readonlyInclude": {},
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true
+}
