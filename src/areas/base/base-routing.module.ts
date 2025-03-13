@@ -7,9 +7,9 @@ const routes: Routes = [
   { path: 'home/index', component: HomeIndexComponent },
   { path: 'home/about', component: AboutComponent },
 ];
-
+//test
 @NgModule({
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule],
 })
-export class BaseRoutingModule {}
+export class BaseRoutingModule { }
