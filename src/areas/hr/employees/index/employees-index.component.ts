@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'employee-index',
   templateUrl: './index.component.html',
 })
-export class IndexComponent implements OnInit {
+export class EmployeesIndexComponent implements OnInit {
   constructor() {}
 
   ngOnInit() {}
