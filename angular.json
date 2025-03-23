@@ -9,6 +9,12 @@
         "@schematics/angular:component": {
           "skipTests": true,
           "style": "none"
+        },
+        "@schematics/angular:service": {
+          "skipTests": true
+        },
+        "@schematics/angular:directive": {
+          "skipTests": true
         }
       },
       "root": "",

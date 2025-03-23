@@ -1,1 +1,14 @@
 <h1>index-component works!</h1>
+
+<div *ngIf="weatherForecasts!.length > 0; else loading">
+  <div *ngFor="let forecast of weatherForecasts">
+    <p>
+      {{ forecast.date }} - {{ forecast.summary }} ({{ forecast.temperatureC
+      }}°C)
+    </p>
+  </div>
+</div>
+
+<ng-template #loading>
+  <p>Loading weather forecasts...</p>
+</ng-template>
